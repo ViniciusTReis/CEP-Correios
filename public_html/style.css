@@ -1,0 +1,105 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    padding: 50px 0;
+}
+
+.endereco-container {
+    max-width: 5000px;
+    margin: 0 auto;
+    background: whitesmoke;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.endereco-title {
+    text-align: center;
+    font-weight: bold;
+    color: #666;
+    font-size: 20px;          
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-family: 'Arial Black', Arial, sans-serif;  
+    text-transform: uppercase; 
+}
+
+
+.form-label {
+    font-size: 12px;
+    color: #666;
+    font-weight: normal;
+    margin-bottom: 4px;
+}
+
+/* Campos input e textarea */
+.form-control {
+    font-size: 13px;
+    height: 40px; 
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px 8px;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Campos select do Bootstrap */
+select.form-select {
+    height: 40px;
+    padding: 5px 8px;
+    font-size: 13px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    width: 100%; 
+    min-width: 200px; 
+}
+
+/* Ajuste especial para o select do estado dentro da classe cep-row */
+.cep-row .col-8 select#estado {
+    min-width: 200px; 
+}
+
+.row-fields {
+    margin-bottom: 15px;
+}
+
+.btn-cadastrar {
+    background-color: #6c5ce7;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 25px;
+    border-radius: 4px;
+    display: block;
+    margin: 20px auto 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-cadastrar:hover {
+    background-color: #5a4fcf;
+}
+
+.cep-row {
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.endereco-row {
+    margin-bottom: 15px;
+}
+
+.cidade-row {
+    margin-bottom: 15px;
+}
+
+.numero-row {
+    margin-bottom: 15px;
+}
